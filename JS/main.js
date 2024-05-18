@@ -1,4 +1,4 @@
-const API = " http://localhost:8001/book";
+const API = "http://localhost:8001/book";
 const nameInput = document.querySelector("#name");
 const lastNameInput = document.querySelector("#lastName");
 const phoneNumberInput = document.querySelector("#phoneNumber");
