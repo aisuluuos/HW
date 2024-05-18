@@ -1,0 +1,18 @@
+{
+  "book": [
+    {
+      "name": "aisuluu",
+      "lastName": "osmonova",
+      "phoneNumber": "1234567890",
+      "photo": "https://lifehacker.ru/wp-content/uploads/2022/09/themashina_2-min-1_1662536396.jpg",
+      "id": 1
+    },
+    {
+      "name": "hello2",
+      "lastName": "hello2",
+      "phoneNumber": "12345678",
+      "photo": "https://assets.avtocod.ru/storage/images/articles-2022/otnyud-ne-bmw-top-10-samykh-dorogikh-mashin-mira-v-2022-godu/otnyud-ne-bmw-top-10-samykh-dorogikh-mashin-mira-v-2022-godu-3-min.jpg",
+      "id": 2
+    }
+  ]
+}

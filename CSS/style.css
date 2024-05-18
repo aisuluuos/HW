@@ -1,0 +1,115 @@
+body {
+  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH9ql0zgHfFSCX7QaQRjZQYXKQUzKTlRJPA8gCduKjrg&s"); */
+  background-color: lemonchiffon;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+.container {
+  width: 500px;
+  padding: 20px;
+  background-color: #fff9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  text-align: center;
+  font-family: Platypi;
+  color: crimson;
+  font-size: 65px;
+}
+.formInput {
+  margin-bottom: 20px;
+}
+.formInput input {
+  width: 90%;
+  padding: 10px;
+  border: 5px solid lightblue;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+.formInput label {
+  display: block;
+  margin-bottom: 5px;
+  color: gray;
+}
+.btn-add {
+  cursor: pointer;
+  background-color: lightpink;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+.btn-add:hover {
+  background-color: #ffe15b;
+}
+.edit-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  background-color: rgb(252, 210, 216);
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  display: none;
+}
+
+.edit-modal input {
+  display: block;
+  width: 90%;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 14px;
+  border: 3px solid #ccc;
+  border-radius: 3px;
+  border-color: lightblue;
+}
+
+.btn-edit-save {
+  background-color: whitesmoke;
+  color: rgb(172, 9, 9);
+  border: none;
+  font-weight: bolder;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btn-edit-save:hover {
+  background-color: #fcff2f;
+}
+.btn-delete,
+.btn-edit {
+  cursor: pointer;
+  background-color: lightpink;
+  color: white;
+  border: none;
+  padding: 3px 12px;
+  border-radius: 3px;
+  font-size: 15px;
+}
+.photo {
+  width: 70px;
+  height: 70px;
+}
+.contacts {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Permanent Marker;
+  color: lightblue;
+}
+.hr {
+  height: 3px;
+  background-color: #fcff2f;
+}
+.btn-delete:hover,
+.btn-edit:hover {
+  background-color: #fcff2f;
+}
